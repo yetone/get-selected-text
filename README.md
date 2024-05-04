@@ -1,7 +1,7 @@
 get-selected-text
 =================
 
-[![Lint](https://github.com/yetone/get-selected-text/actions/workflows/lint.yaml/badge.svg)](https://github.com/yetone/get-selected-text/actions/workflows/lint.yaml)
+[![Lint](https://github.com/yetone/get-selected-text/actions/workflows/lint.yaml/badge.svg)](https://github.com/yetone/get-selected-text/actions/workflows/lint.yaml) ![crates.io](https://img.shields.io/crates/v/get-selected-text.svg)
 
 A tiny Rust library that allows you to easily obtain selected text across all platforms (macOS, Windows, Linux).
 
