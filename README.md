@@ -36,7 +36,7 @@ fn main() {
 
 Prioritize using the A11y API to obtain selected text. If the application does not comply with the A11y API, simulate pressing cmd+c to borrow from the clipboard to get the selected text.
 
-To avoid annoying alert sounds when simulating pressing cmd+c, it will automatically mute the alert sound. The volume of the alert sound will be restored after releasing the key.
+To avoid annoying Alert sounds when simulating pressing cmd+c, it will automatically mute the Alert sound (Only the Alert sound is muted, it won't affect the volume of listening to music and watching videos). The volume of the Alert sound will be restored after releasing the key.
 
 Therefore, on macOS, you need to grant accessbility permissions in advance. The sample code is as follows:
 
