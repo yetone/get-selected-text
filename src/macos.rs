@@ -1,5 +1,5 @@
-use accessibility::{AXAttribute, AXUIElement};
-use accessibility_sys::{kAXFocusedUIElementAttribute, kAXSelectedTextAttribute};
+use accessibility_ng::{AXAttribute, AXUIElement};
+use accessibility_sys_ng::{kAXFocusedUIElementAttribute, kAXSelectedTextAttribute};
 use core_foundation::string::CFString;
 
 pub fn get_selected_text() -> Result<String, Box<dyn std::error::Error>> {

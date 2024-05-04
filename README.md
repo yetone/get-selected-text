@@ -5,11 +5,10 @@ A tiny Rust library that allows you to easily obtain selected text across all pl
 
 ## Usage
 
-### Add to Cargo.toml:
+### Add:
 
-```toml
-[dependencies]
-get-selected-text = { git = "https://github.com/yetone/get-selected-text", branch = "main" }
+```bash
+cargo add get-selected-text
 ```
 
 ### Use:
