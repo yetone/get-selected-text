@@ -5,6 +5,8 @@ get-selected-text
 
 A tiny Rust library that allows you to easily obtain selected text across all platforms (macOS, Windows, Linux).
 
+Corresponding Node.js package: [node-get-selected-text](https://github.com/yetone/node-get-selected-text)
+
 ## Usage
 
 ### Add:
