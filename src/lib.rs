@@ -20,9 +20,20 @@ use crate::windows::get_selected_text as _get_selected_text;
 /// ```
 /// use get_selected_text::get_selected_text;
 ///
-/// let text = get_selected_text();
+/// let text = get_selected_text().unwrap();
 /// println!("{}", text);
 /// ```
 pub fn get_selected_text() -> Result<String, Box<dyn std::error::Error>> {
     _get_selected_text()
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_get_selected_text() {
+        let text = get_selected_text().unwrap();
+        println!("selected text: {:#?}", text);
+    }
 }
