@@ -33,6 +33,13 @@ mod tests {
 
     #[test]
     fn test_get_selected_text() {
+        println!("--- get_selected_text ---");
+        let text = get_selected_text().unwrap();
+        println!("selected text: {:#?}", text);
+        println!("--- get_selected_text ---");
+        let text = get_selected_text().unwrap();
+        println!("selected text: {:#?}", text);
+        println!("--- get_selected_text ---");
         let text = get_selected_text().unwrap();
         println!("selected text: {:#?}", text);
     }
