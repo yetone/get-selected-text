@@ -30,7 +30,9 @@ pub fn get_selected_text() -> Result<String, Box<dyn std::error::Error>> {
     }
     match get_selected_text_by_ax() {
         Ok(text) => {
-            cache.put(app_name, 0);
+            if !text.is_empty() {
+                cache.put(app_name, 0);
+            }
             Ok(text)
         }
         Err(_) => match get_selected_text_by_clipboard_using_applescript() {
